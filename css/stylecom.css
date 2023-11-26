@@ -1,0 +1,24 @@
+.dialogo{
+    padding: 10% 0% 0% 10%;
+    font:17px'freight-sans-pro1', Arial, Helvetica, sans-serif;;
+}
+.dialogo2{
+    padding-left: 9%;
+    font:17px'freight-sans-pro', Arial, Helvetica, sans-serif;
+
+
+}
+.fale{
+    padding-top: 10%;
+}
+h2{
+    color :blueviolet;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+@media screen and (max-width: 800px) {
+    .fale{
+        display: none;
+    }
+    
+}

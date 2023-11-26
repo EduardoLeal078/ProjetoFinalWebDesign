@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap');
+
+
+#box {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Sen', sans-serif;
+    background-image: url("../assets/exemplos/backgroundimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
+
+}
+.caixa{
+    padding: 0px;
+    margin: 0px;
+}
+.box1{
+    /*background-color: yellow;*/
+    padding-top: 50px;
+}
+
+#info{
+    color: white;
+    padding: 10% 1% 5% 11%;
+    font-family: Georgia, serif;
+}
+#cimages{
+    padding: 4% 5% 5% 10%;
+}
+.botao{
+    padding: 5% 0% 5% 0%;
+    background-color: #B2A6D9;
+}
+.btn-circle{
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+}
+.btn{
+    font:18px'freight-sans-pro', Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    padding: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+#logo{
+    width: 120px;
+    height: 40px;
+}
+@media screen and (max-width: 990px) {
+    #cimages{
+       display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .card p{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .box1{
+        padding: 10%;
+    }
+
+
+
+}

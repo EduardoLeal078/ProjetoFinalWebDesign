@@ -4,69 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Phaser</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleindex.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="assets/icones/icone.png">
 </head>
 
 <body>
     <main class="container-fluid">
-        <nav class="navbar navbar-expand-lg justify-content-center">
+        <nav class="navbar navbar-expand-lg ">
+            <img src="assets/icones/logo.png" class="logo" alt="">
             <ul class="nav flex-row">
                 <li class="nav-item">
-                    <a class="nav-link text-light" href>INICIO</a>
+                    <a class="nav-link text-light" href="./index.html">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href>EXEMPLOS</a>
+                    <a class="nav-link text-light" href="./pages/exemplos.html">EXEMPLOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href>SOBRE</a>
+                    <a class="nav-link text-light" href="./pages/noticias.html">NOTICIAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/comunidade.html">COMUNIDADE</a>
                 </li>
             </ul>
         </nav>
-        <div class="container-fluid justify-content-center row" id="box">
-            <section class="col-sm-6" id="info">
-                <h1>Framework para Deselvolver Jogos Desktop e Mobile HTML5</h1>
-            </section>
-            <section class="col-sm-6" id="cimages"> 
-                <img src="assets/exemplos/Phaserlogo.png" alt="PhaserL">               
-            </section>
-        </div>
-        <div class="text-center" id="botao">
-            <button type="button" class="btn-primary btn-circle">Experimente Agora</button>
-        </div>
-        <div class="container-fluid row" id="box1">
-            <div class="card col-sm-3 mx-auto">
-                <img src="assets/icones/avatar.png" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Primeiros Passos</h5>
-                    <p class="card-text">Este tutorial aborda a configuração do seu ambiente de desenvolvimento. Escolhendo um editor, instalando um servidor web, baixando o Phaser e criando um teste Hello World</p>
-                    <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+        <div class="container col-md-12 col-xl-12 col-sm-12 caixa">
+            <div class="container-fluid justify-content-center row " id="box">
+                    <div class="col-xl-6 col-md-6 col-lg-6" id="info">
+                        <h1>Framework para Deselvolver Jogos Desktop e Mobile HTML5</h1>
+                    </div>
+                    <div class="col-xl-6 col-lg-6"id="cimages">
+                        <img src="assets/exemplos/Phaserlogo.png" alt="PhaserL">
+                    </div>
+                <div class="text-center botao col-md-12">
+                    <button type="button" class="btn-primary btn-circle btn">Experimente Agora</button>
+                </div>
+
+            </div>
+            <div class="container-fluid row box1">
+                <div class="card col-sm-5 col-md-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="assets/icones/avatar.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Primeiros Passos</h5>
+                        <p class="card-text">Este tutorial aborda a configuração do seu ambiente de desenvolvimento.
+                            Escolhendo um editor, instalando um servidor web, baixando o Phaser e criando um teste Hello
+                            World
+                            <a href="#" class="stretched-link"></a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card col-sm-5 col-md-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="assets/icones/controle.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Faça seu Primeiro Jogo</h5>
+                        <p class="card-text">Saiba como criar um jogo completamente do zero. Adicione um jogador e
+                            faça-o correr e pular pelas plataformas, coletando estrelas e evitando bandidos.
+                            <a href="#" class="stretched-link"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-sm-5 col-md-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="assets/icones/mouse.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Exemplos</h5>
+                        <p class="card-text">Pesquise, explore e veja o que você encontra!
+                            <a href="#" class="stretched-link"></a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-sm-3 mx-auto">
-                <img src="assets/icones/controle.png" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Faça seu Primeiro Jogo</h5>
-                    <p class="card-text">Saiba como criar um jogo completamente do zero. Adicione um jogador e faça-o correr e pular pelas plataformas, coletando estrelas e evitando bandidos.</p>
-                    <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+            <div class="container-fluid row box1">
+                <div class="card col-sm-5 col-md-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="assets/icones/livro.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Documentação</h5>
+                        <p class="card-text">Esta documentação é gerada a partir do código-fonte e abrange cada método,
+                            propriedade e classe em toda a API. Use-o em conjunto com exemplos e tutoriais para obter
+                            uma compreensão mais profunda da estrutura.
+                            <a href="#" class="stretched-link"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-sm-5 col-md-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="assets/icones/teclado.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tutoriais</h5>
+                        <p class="card-text">A comunidade está constantemente publicando novos tutoriais. Há
+                            literalmente centenas deles, cobrindo tudo, desde objetos de jogo personalizados até
+                            shaders. Não deixe de conferir os vídeos também.
+                            <a href="./pages/tutoriais.html" class="stretched-link"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-sm-5 col-md-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="assets/icones/maça.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">GameDev Academia</h5>
+                        <p class="card-text">Seja ensinado pelos especialistas nesta série abrangente. 11 Cursos, 175
+                            Aulas e mais de 28 horas de vídeo. Com arquivos de projeto para download e legendas ocultas,
+                            você terá aprendido muito até o final.
+                            <a href="#" class="stretched-link"></a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-sm-3 mx-auto">
-                <img src="assets/icones/mouse.png" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Exemplos</h5>
-                    <p class="card-text">Pesquise, explore e veja o que você encontra!</p>
-                    <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
-                </div>
-            </div>
-
-
         </div>
-        <footer class="footer bg-dark">
 
-        </footer>
+        <footer class="text-center footer">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-muted">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-muted">Sobre</a>
+                </li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2023 Photon Storm Ltd</p>
+          </footer>
 
     </main>
 
