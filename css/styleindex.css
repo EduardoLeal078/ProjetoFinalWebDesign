@@ -40,6 +40,7 @@
 }
 .btn{
     font:18px'freight-sans-pro', Arial, Helvetica, sans-serif;
+    padding-top: 1%;
 }
 .btn:hover{
     transform: scale(1.1);

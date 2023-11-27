@@ -15,6 +15,8 @@ a.click{
     text-decoration: none;
 }
 h1{
+    font:40px'freight-sans-pro', Arial, Helvetica, sans-serif;
+    color: blueviolet;
     padding-left: 20%;
 }
 .box:hover{

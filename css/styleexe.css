@@ -1,6 +1,10 @@
 .pastas{
     padding: 10% 0% 10% 10%;
 }
+.pastas p{
+    font:20px'freight-sans-pro', Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
 a.btn{
     padding-left: 5% !important;
 }
