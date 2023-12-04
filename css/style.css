@@ -38,6 +38,10 @@ main{
 .footer p{
     padding-top: 10px;
     padding-bottom: 10px;
+    color: white !important;
+}
+.footer a{
+    color: white !important;
 }
 
 @media screen and (max-width: 655px) {
